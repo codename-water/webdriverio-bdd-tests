@@ -1,5 +1,4 @@
-import { $ } from '@wdio/globals'
-import Page from './page';
+import { $ } from '@wdio/globals';
 
 class CheckoutPage {
     //selectors

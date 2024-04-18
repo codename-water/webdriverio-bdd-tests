@@ -82,7 +82,6 @@ class HomePage extends Page {
                 await this.verifyHightoLowOrder();
                 break;
             default:
-                // Handle default order or throw an error
                 throw new Error("Invalid sortOrder specified.");
         }
     }
