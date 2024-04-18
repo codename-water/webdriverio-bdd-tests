@@ -1,2 +1,28 @@
-# webdriverio-bdd-tests
-Automated tests for the SauceDemo website using WebdriverIO with a BDD framework in TypeScript. Includes test scenarios for login validations, items sort order validations, and adding items to cart and completing orders. This repository is part of an automation exercise to demonstrate testing skills.
+# Automation Demo Exercise
+
+This project is an automation exercise for testing the demo website [SauceDemo](https://www.saucedemo.com) using WebdriverIO with a BDD framework using TypeScript.
+
+## Prerequisites
+- Node.js installed
+- WebdriverIO installed (`npm install @wdio/cli`)
+
+## Setup Instructions
+1. Clone this repository:
+
+    ```
+    git clone https://github.com/codename-water/webdriverio-bdd-tests.git
+    ```
+
+2. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+3. Configure WebdriverIO by modifying `wdio.conf.ts` according to your environment and preferences.
+
+## Test Execution
+To execute the automated tests, run the following command:
+
+```
+npx wdio wdio.conf.ts
